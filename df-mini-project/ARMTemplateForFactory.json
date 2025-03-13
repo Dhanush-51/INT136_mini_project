@@ -152,7 +152,8 @@
 						"defaultValue": [
 							"CUSTOMERS_TABLE",
 							"PRODUCTS_TABLE",
-							"TRANSACTIONS_TABLE"
+							"TRANSACTIONS_TABLE",
+							"COUNTRY_REGION_TABLE"
 						]
 					}
 				},
