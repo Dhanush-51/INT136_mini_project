@@ -1,0 +1,48 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "df-mini-project"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"FileServer1_password": {
+			"value": ""
+		},
+		"Snowflake_linked_service_password": {
+			"value": ""
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"FileServer1_properties_typeProperties_host": {
+			"value": "\"C:\\Users\\TottaraDhanush\\Downloads\\Dataset - Social Media.xlsx\""
+		},
+		"FileServer1_properties_typeProperties_userId": {
+			"value": "Dhanush"
+		},
+		"Snowflake_linked_service_properties_typeProperties_database": {
+			"value": "raw_data"
+		},
+		"Snowflake_linked_service_properties_typeProperties_role": {
+			"value": "ACCOUNTADMIN"
+		},
+		"Snowflake_linked_service_properties_typeProperties_host": {
+			"value": "RAQAING-LZ14569.snowflakecomputing.com"
+		},
+		"SqlServer1_properties_typeProperties_server": {
+			"value": "JM-DKT-034"
+		},
+		"SqlServer1_properties_typeProperties_database": {
+			"value": "mini_project_db"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"linkedService1_sasUri": {
+			"value": ""
+		}
+	}
+}
