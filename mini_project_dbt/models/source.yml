@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: raw_data
+    database: raw_data
+    schema: public
+    tables:
+      - name: CUSTOMERS_TABLE
+        description: "Contains customer details including ID, name, company, and created date."
+      - name: PRODUCTS_TABLE
+        description: "Stores product-related data such as product ID, name, category, price, and stock availability."
+      - name: TRANSACTIONS_TABLE
+        description: "Records all transactions including transaction ID, customer ID, product ID, purchase date, and amount."
+      - name: COUNTRY_REGION_TABLE
+        description: "Maps country and region information with country codes, region names, and geographical details."
